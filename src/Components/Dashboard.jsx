@@ -24,10 +24,7 @@ const Dashboard = () => {
   const [cart, setCart] = useState([]);
   const [minPrice, setMinPrice] = useState(0);
   const [maxPrice, setMaxPrice] = useState(30);
-  const [activeFilters, setActiveFilters] = useState({
-    category: "Fruits & Vegetables",
-    color: "Green",
-  });
+  const [activeFilters, setActiveFilters] = useState({});
 
   const toggleWishlist = (id) => {
     setWishlist((prev) =>
